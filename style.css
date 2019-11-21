@@ -1,0 +1,72 @@
+body{
+  background-image: url(universe.jpg);
+  font-family: 'Anton', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container{
+  width: 470px;
+  height: 470px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin-right: 170px;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+
+.border-b{
+  border-bottom: 10px solid black;
+}
+
+.border-r{
+  border-right: 10px solid black;
+}
+
+.border-l{
+  border-left: 10px solid black;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  background-color: (0,0,0,1.0);
+  color: #54373A;
+}
+
+main{
+  flex-direction: column;
+  align-content: center;
+}
+
+.button{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  background-color: #282627;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  outline: none;
+}
+
+.popUp{
+  height: 200px;
+  width: 1000px;
+  font-size: 70px;
+  background-color: (0,0,0,1.0);
+  position: absolute;
+  display: none;
+  color: white;
+  text-align: center;
+  line-height: 350px;
+}
